@@ -1,0 +1,6 @@
+The content and programs written by me in this github repository, the Infinicalc, are not allowed to be replicated.
+This will have a patent very soon. The paperwork is already done. I only need to format the paperwork and turn it in.
+I am going to patent the idea of a program that processes equations in this manner.
+The content the Infinicalc contains, are not permitted to use for the following:
+1. The Infinicalc is not permitted for commercial use, distribution of copies, modification, or patent use.
+The Infinicalc is, howerver permitted for use on commputer applications, as long as the application attributes the Infinicalc to the function of the application in a minimum font size of 18 pixels.
