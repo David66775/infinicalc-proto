@@ -9,7 +9,7 @@ let result = [];
 function reload() {
   location.refresh;
 }
-function check() {
+function Acheck() {
   if (y[((x.length - i) - s)] === "9") {
     y[((x.length - i) - s)] = "8";
   }
@@ -40,7 +40,7 @@ function check() {
       else if (y[((x.length - i) - s)] === "0") {
         y[((x.length - i) - s)] = "9";
         s++;
-        check();
+        Acheck();
       }
       else {
         alert("please input a number");
@@ -55,7 +55,7 @@ function subtract(num1, num2) {
     b = Number((x[x.length - i]));
     r = a - b;
     if (r < 0) {
-      check();
+      Acheck();
     }
     t[(x.length - i)];
   }
