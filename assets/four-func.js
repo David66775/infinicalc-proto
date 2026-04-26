@@ -5,21 +5,14 @@ let b;
 let r;
 let r2;
 let s;
-let t;
+let result = [];
 function reload() {
   location.refresh;
 }
-function add(num1, num2) {
-  y = num1.split('');
-  x = num2.split('');
-  for (i = 0; i < x.length; i++) {
-    a = Number((y[y.length - i]));
-    b = Number((x[x.length - i]));
-    r = a - b;
-    if (r < 0) {
-      if (y[((x.length - i) - s)] === "9") {
-        y[((x.length - i) - s)] = "8";
-      }
+function check() {
+  if (y[((x.length - i) - s)] === "9") {
+    y[((x.length - i) - s)] = "8";
+  }
       else if (y[((x.length - i) - s)] === "8") {
         y[((x.length - i) - s)] = "7";
       }
@@ -46,8 +39,24 @@ function add(num1, num2) {
       }
       else if (y[((x.length - i) - s)] === "0") {
         y[((x.length - i) - s)] = "9";
-        
+        s++;
+        check();
       }
+      else {
+        alert("please input a number");
+        reload();
+      }
+}
+function subtract(num1, num2) {
+  y = num1.split('');
+  x = num2.split('');
+  for (i = 0; i < x.length; i++) {
+    a = Number((y[y.length - i]));
+    b = Number((x[x.length - i]));
+    r = a - b;
+    if (r < 0) {
+      check();
     }
+    t[(x.length - i)];
   }
 }
